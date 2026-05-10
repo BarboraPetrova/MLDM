@@ -4,43 +4,29 @@
 1. Optional tasks
 2. Data cleaning 
 3. Data normalization
-4.
+4. Data visualization
 5. Regression
-6. Same as previous
-7. Decision Trees
-8. k-nearest neighbors
+6. (same as previous)
+7. Decision trees
+8. k-nearest neighbors (kNN)
+9. Naive Bayes and Support Vector Machines (SVM)
 
 
 ## Structure
-- `movie_database`:
-- `mldm1_task2.ipynb`:
-- `mldm2_task3.ipynb`
-- `mldm2_task4.ipynb`
-- `mldm2_task5.ipynb`
-- `mldm2_task7.ipynb`
-- `mldm2_task8.ipynb`
+- `movie_database`: Dataset and related resources
+- `titanic`: Titanic dataset and preprocessing files
+- `mldm1_task2.ipynb`: Data cleaning
+- `mldm2_task3.ipynb`: Data normalization
+- `mldm2_task4.ipynb`: Data visualization
+- `mldm2_task5.ipynb`: Regression
+- `mldm2_task7.ipynb`: Decision trees
+- `mldm2_task8.ipynb`: kNN
+- `mldm2_task9.ipynb`: Naive Bayes and SVM
 
-
-
-installed: 
-- 
+## Dependencies
+- numpy
+- pandas
+- matplotlib
 - seaborn
-- scikit learn
+- scikit-learn
 
-
-
-
-
-
-
-
-## Jak to spustit
-aktivace prostředí:>
-`source mldm/bin/activate`
-Vyber správný Python interpreter:
-1. Stiskni Ctrl + Shift + P
-2. napiš: Python: Select Interpreter
-3. vyber: ./mldm/bin/python
-
-spustit jupiter notebook
-jupyter notebook
