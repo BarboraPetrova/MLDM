@@ -16,6 +16,7 @@
 installed: 
 - 
 - seaborn
+- scikit learn
 
 
 
